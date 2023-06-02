@@ -1,0 +1,7 @@
+Files systems in Windows
+1. FAT32 (4gb <=)
+2. NTFS 
+
+Files systems in Mac OS
+1. APFS
+
