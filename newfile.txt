@@ -1,0 +1,12 @@
+Readable Stream
+
+fs.createReadableStream -> open -> data -> end -> close
+
+we don't know when 'error' event will work, and after that, project will pass to 'close' event
+
+
+Writable Stream
+
+
+
+
