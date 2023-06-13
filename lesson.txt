@@ -1,0 +1,26 @@
+Multithreading and Multiprocessing differences
+1. Resource Ownership
+2. Concurency and paralleling
+3. Communication
+    1. Pipe
+    2. IPC 
+    3. stdin, stdout, stderr
+4. Fault isolation
+
+Node.js
+working with child process we have two module
+1. spawn(cmd) - starts child process asynchrounsly
+    exec - starts procees in shell
+    execfile - .exe
+    fork 
+
+cluster - uses fork method 
+
+
+
+
+
+///////////////////////////////////////////////////////
+round robin - read
+load balancing
+
