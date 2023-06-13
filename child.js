@@ -15,16 +15,23 @@
 
 // process.send({ message: 'hello'});
 
-import cluster from 'cluster';
-import os from 'os';
+///////////////////////////////////////////////////////
+
+// import cluster from 'cluster';
+// import os from 'os';
 
 
-if(cluster.isPrimary) {
-    const cpus = os.availableParallelism();
+// if(cluster.isPrimary) {
+//     const cpus = os.availableParallelism();
 
-    for(let i = 0; i <= cpus; i++) {
-        let  worker = cluster.fork();
-    }
-} else {
+//     for(let i = 0; i <= cpus; i++) {
+//         let  worker = cluster.fork();
+//     }
+// } else {
     
-}
+// }
+
+////////////////////////////////////////////
+
+
+
