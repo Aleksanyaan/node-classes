@@ -1,0 +1,19 @@
+ www.google.com -> ip -> DNS
+
+    OSI          |       TCP/IP
+-------------------------------------
+1. Application   |  Application
+   HTTP, SMGP    
+2. Presentation  |
+3. Session       |
+-------------------------------------
+4. Transport     |  Transport
+-------------------------------------
+5. Network       |  Network
+-------------------------------------
+6. Datalink      | Network Access
+7. Physics       | 
+
+
+
+ip and port = socket
