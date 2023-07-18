@@ -1,18 +1,16 @@
 services:
   app:
     image: node
+    working_dir: /app
     depends_on:
       - db
-    command: 
-      - node app.js
-    working_dir: /app
+    command: npm run dev
     ports:
       - 3000:3000
     volumes:
       - ./:/app
-
   db:
-    image: sunny
+    image: postgres
     ports:
       - 5432:5432
     environment:
@@ -20,5 +18,5 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
-  volumes:
-    pgdata:
+volumes:
+  pgdata:
